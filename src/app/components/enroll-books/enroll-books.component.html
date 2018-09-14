@@ -1,3 +1,6 @@
-<p>
-  enroll-books works!
-</p>
+<div class="row">
+
+  <input type="text" class="form-control" [(ngModel)]="bookOnstore.name" placeholder="Book name" style="width: 200px">
+  <input type="text" class="form-control" [(ngModel)]="bookOnstore.author" placeholder="Author" style="width: 200px">
+  <div class="btn btn-primary" (click)="addBookStore()">Add a book</div>
+</div>
